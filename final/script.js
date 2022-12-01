@@ -5,13 +5,15 @@ let navbar = document.getElementById("nav-container");
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    button.style.display = "block";
+    button.style.opacity = "1";
+    button.style.transition = "0.3s ease-out";
     navbar.style.height = "60px";
     navbar_bg.style.height = "60px";
     navbar.style.transition = "0.5s ease-out";
     navbar_bg.style.transition = "0.5s ease-out";
   } else {
-    button.style.display = "none";
+    button.style.opacity = "0";
+    button.style.transition = "0.3s ease-out";
     navbar.style.height = "80px";
     navbar_bg.style.height = "80px";
     navbar.style.transition = "0.5s ease-out";
