@@ -84,9 +84,9 @@
     #field, #field-msg {
         border: 1px solid #CED4DA;
         margin-bottom: 15px;
-        width: 400px;
-        max-width: 400px;
-        min-width: 400px;
+        width: 380px;
+        max-width: 380px;
+        min-width: 380px;
         padding: 10px;
         box-sizing: border-box;
     }
