@@ -1,0 +1,73 @@
+@media screen and (max-width: 1024px) {
+    .card-container, .nav-container, .container-cards, .blog-container, .photo-cards-container {
+        width: 90%;
+    }
+    #section-container > div {
+        display: none;
+    }
+    #burger-icon {
+        display: block;
+    }
+
+    .card-container > #item > div > img {
+        margin-right: 20px;
+    }
+
+    #photocard-container {
+        height: 200px;
+    }
+
+    #photocard {
+        width: 180%;
+    }
+    
+    #photocard:hover {
+        width: 200%;
+    }
+    
+    #photocard:not(:hover) {
+        width: 180%;
+    }
+
+    .photocard-desc > div > h3 {
+        font-size: 20px;
+    }
+
+    #plus-circle {
+        width: 40px;
+    }
+
+    .photocard-desc > div > h2 {
+        font-size: 22px;
+    }
+
+    #photo-text {
+        font-size: 13px;
+    }
+
+    #man-icon {
+        width: 30px;
+    }
+
+    #blog-data {
+        font-size: 13px;
+    }
+
+    .contacts {
+        width: 90%;
+    }
+
+    #circle-text {
+        font-size: 13px;
+    }
+
+    #cards-title {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .container-cards > div > div {
+        font-size: 13px;
+        text-align: center;
+    }
+}

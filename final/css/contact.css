@@ -1,0 +1,177 @@
+.contact-container {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url(../imgs/3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 8px #004ea7;
+}
+
+.contacts {
+    background-color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    width: 50%;
+    z-index: 3;
+    box-shadow: 0 1px 8px #004ea7;
+}
+
+#contact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+#field-msg {
+    font-family: Lato, sans-serif;
+    height: 120px;
+}
+
+#field, #field-msg {
+    border: 1px solid #CED4DA;
+    margin-bottom: 15px;
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: #0078FF;
+    border-radius: 50px;
+    color: white;
+    border: 5px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    transition: 0.5s;
+    border: 5px solid #CDE1F8;
+    background-color: #3393FF;
+}
+
+#submit-button:not(hover) {
+    transition: 0.5s;
+    border: 5px solid white;
+    background-color: #0078FF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.form-container {
+    box-sizing: border-box;
+}
+
+#contact-icon {
+    width: 18px;
+}
+
+#contact-circle {
+    border-radius: 100%;
+    border: 3px solid #0078FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#contact-circle > img {
+    width: 40px;
+    padding: 8px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-circle > img:hover {
+    filter: invert(1);
+    transition: 0.5s;
+}
+
+#contact-circle > img:not(hover) {
+    filter: invert(0);
+    transition: 0.5s;
+}
+
+#contact-circle:hover {
+    border: 3px solid #CDE1F8;
+    background-color: #0078FF;
+    transition: 0.5s;
+}
+
+#contact-circle:not(:hover) {
+    border: 3px solid #0078FF;
+    transition: 0.5s;
+}
+
+#contact-title {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#blue-line {
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    margin-bottom: 30px;
+}
+
+#contact-text {
+    font-size: 18px;
+    line-height: 160%;
+    color: rgb(84, 84, 84);
+    text-align: justify;
+}
+
+#contact-info {
+    margin: 20px 0 20px 0;
+}
+
+#contact-info > div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+#contact-info > div > div {
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #0062D3;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer > div {
+    text-align: center;
+    line-height: 170%;
+    color: white;
+}

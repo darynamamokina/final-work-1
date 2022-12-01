@@ -1,0 +1,40 @@
+@media screen and (max-width: 1440px) {
+    .contacts, .card-container, .nav-container, .container-cards, .blog-container, .photo-cards-container {
+        width: 90%;
+    }
+
+    .card-container > #item > div > img {
+        margin-right: 20px;
+    }
+
+    #photocard {
+        width: 160%;
+        background-size: cover;
+    }
+    
+    #photocard:hover {
+        width: 190%;
+        transition: 0.7s;
+    }
+    
+    #photocard:not(:hover) {
+        width: 160%;
+        transition: 0.7s;
+    }
+
+    .photocard-desc > div > h3 {
+        font-size: 22px;
+    }
+
+    .photocard-desc > div > h2 {
+        font-size: 20px;
+    }
+
+    #photo-text {
+        font-size: 15px;
+    }
+
+    #blog-data {
+        font-size: 15px;
+    }
+}
